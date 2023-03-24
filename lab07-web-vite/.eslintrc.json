@@ -5,26 +5,14 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb"
-  ],
-  "overrides": [
-  ],
+  "extends": ["plugin:react/recommended", "plugin:react/jsx-runtime", "airbnb"],
+  "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "plugins": [
-    "react", "prettier"
-  ],
+  "plugins": ["react", "prettier"],
   "rules": {
-    "semi": [
-      "error",
-      "never"
-    ],
-    "max-len": [
-      "error",
-      120
-    ]
+    "semi": ["error", "never"],
+    "max-len": ["error", 120]
   }
 }
