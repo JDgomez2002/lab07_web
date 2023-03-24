@@ -1,0 +1,17 @@
+.header-container {
+  height: 35px;
+  margin: 10px 20px 0px 20px;
+  text-align: right;
+}
+
+.button-aside {
+  position: relative;
+  /* right: 5px; */
+  border: none;
+  background-color: inherit;
+}
+
+.button-image {
+  position: relative;
+  height: auto;
+}

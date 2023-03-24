@@ -3,5 +3,13 @@
   "userTabs": 2,
   "semi": false,
   "singleQuote": true,
-  "jsxSingleQuote": true
+  "overrides": [
+    {
+      "files":["**/*.css", "**/*.html"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ],
+  "jsxSingleQuote": false
 }
