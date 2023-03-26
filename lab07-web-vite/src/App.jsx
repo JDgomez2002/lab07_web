@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       <Body />
+      <h1>Hello! Still working on the Duck Duck Go page! but the ESlint files are ready!</h1>
       <Footer />
     </>
   )

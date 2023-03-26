@@ -15,15 +15,34 @@ function ImageButton({ imageSrc }) {
   )
 }
 
-function NavBar() {
+function LinkButton({ imageSrc }) {
   return (
-    <div>This is the navbar</div>
+    <a
+      type="submit"
+      className="logo-link"
+      href="https://duckduckgo.com/about"
+    >
+      <img
+        className="logo-image"
+        src={imageSrc}
+        alt="logoPng"
+        border="0"
+      />
+    </a>
   )
 }
 
-function InformationFooterContainer() {
+function SearchBar({ imageSrc }) {
   return (
-    <div>This is the footer information container...</div>
+    <div>
+      <LinkButton imageSrc={imageSrc} />
+    </div>
+  )
+}
+
+function InfoFooterContainer() {
+  return (
+    <div>This is the footer container...</div>
   )
 }
 
@@ -35,4 +54,20 @@ ImageButton.defaultProps = {
   imageSrc: '',
 }
 
-export { ImageButton, NavBar, InformationFooterContainer }
+SearchBar.propTypes = {
+  imageSrc: PropTypes.string,
+}
+
+SearchBar.defaultProps = {
+  imageSrc: '',
+}
+
+LinkButton.propTypes = {
+  imageSrc: PropTypes.string,
+}
+
+LinkButton.defaultProps = {
+  imageSrc: '',
+}
+
+export { ImageButton, SearchBar, InfoFooterContainer }
