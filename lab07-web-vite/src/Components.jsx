@@ -1,19 +1,38 @@
 import React from 'react'
 import './Components.css'
+import PropTypes from 'prop-types'
 
-function Header() {
+function ImageButton({ imageSrc }) {
   return (
-    <div className="header-container">
-      <button type="submit" className="button-aside">
-        <img
-          className="button-image"
-          src="https://github.com/JDgomez2002/lab07_web/blob/main/img/image-1.png?raw=true"
-          alt="buttonpng"
-          border="0"
-        />
-      </button>
-    </div>
+    <button type="submit" className="button-aside">
+      <img
+        className="button-image"
+        src={imageSrc}
+        alt="buttonpng"
+        border="0"
+      />
+    </button>
   )
 }
 
-export { Header }
+function NavBar() {
+  return (
+    <div>This is the navbar</div>
+  )
+}
+
+function InformationFooterContainer() {
+  return (
+    <div>This is the footer information container...</div>
+  )
+}
+
+ImageButton.propTypes = {
+  imageSrc: PropTypes.string,
+}
+
+ImageButton.defaultProps = {
+  imageSrc: '',
+}
+
+export { ImageButton, NavBar, InformationFooterContainer }
