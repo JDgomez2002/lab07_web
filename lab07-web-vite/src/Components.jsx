@@ -40,14 +40,13 @@ function SearchInput() {
       <div className="input-container">
         <input className="input-aside" />
       </div>
-      <button type="submit" className="button-aside">
-        <img
-          className="image-into-search-button"
-          src={magnifyingImgSrc}
-          alt="buttonpng"
-          border="0"
-        />
-      </button>
+      <input
+        type="image"
+        className="image-into-search-button"
+        src={magnifyingImgSrc}
+        alt="Submit feedback"
+        border="0"
+      />
     </div>
   )
 }
@@ -63,7 +62,7 @@ function SearchBar({ imageSrc }) {
 
 function InfoFooterContainer() {
   return (
-    <div>This is the footer container...</div>
+    <h1>Still working on the Duck Duck Go page! but the ESlint files are ready...</h1>
   )
 }
 

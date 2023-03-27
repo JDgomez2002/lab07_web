@@ -2,7 +2,7 @@
   position: relative;
   margin: 0px 0px 0px 0px;
   border: none;
-  background-color: white;
+  background-color: inherit;
   height: 100%;
   width: auto;
   cursor: pointer;
@@ -18,7 +18,7 @@
   height: 30px;
   text-align: right;
   width: 60%;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 16px;
   /* width: 60%; */
   display:inline;
 }
@@ -39,9 +39,14 @@
   background-color: white;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  height: 45px;
+  height: 30px;
   width: 1000px;
   display: inline-block;
+  overflow: hidden;
+  background-color: #282828;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
 
 /* .button-aside:hover {
@@ -66,5 +71,28 @@
   margin: 0px 0px 0px 0px;
   height: 100%;
   width: auto;
-  /* display:inline-block; */
+  display:inline-block;
+  background-color: #282828;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: 'https://github.com/JDgomez2002/lab07_web/blob/main/img/image-4.png?raw=true';
+}
+
+.search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282828;
+  height: 100%;
+  color: #fff;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button img {
+  height: 100%;
+  margin-right: auto;
 }
