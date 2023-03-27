@@ -32,11 +32,21 @@ function LinkButton({ imageSrc }) {
   )
 }
 
+function SearchInput() {
+  return (
+    <div className="SearchBar-div-container">
+      <input className="input-aside" />
+      <button type="submit" className="button-search-aside">Search</button>
+    </div>
+  )
+}
+
 function SearchBar({ imageSrc }) {
   return (
-    <div>
+    <>
       <LinkButton imageSrc={imageSrc} />
-    </div>
+      <SearchInput />
+    </>
   )
 }
 

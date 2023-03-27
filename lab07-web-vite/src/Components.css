@@ -1,10 +1,3 @@
-.header-container {
-  height: 28px;
-  margin: 25px 20px 0px 20px;
-  padding: 0px 20px 0px 20px;
-  text-align: right;
-}
-
 .button-aside {
   position: relative;
   margin: 0px 0px 0px 10px;
@@ -13,6 +6,30 @@
   height: 100%;
   width: auto;
   cursor: pointer;
+}
+
+.SearchBar-div-container {
+  text-align: center;
+  height: 30px;
+}
+
+.button-search-aside {
+  position: relative;
+  border: none;
+  height: 100%;
+  width: 10%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.input-aside {
+  position: relative;
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+  height: 30px;
+  width: 80%;
 }
 
 /* .button-aside:hover {
