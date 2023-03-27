@@ -33,10 +33,21 @@ function LinkButton({ imageSrc }) {
 }
 
 function SearchInput() {
+  const magnifyingImgSrc = 'https://github.com/JDgomez2002/lab07_web/blob/main/img/image-4.png?raw=true'
+
   return (
-    <div className="SearchBar-div-container">
-      <input className="input-aside" />
-      <button type="submit" className="button-search-aside">Search</button>
+    <div className="searchBar-div-container">
+      <div className="input-container">
+        <input className="input-aside" />
+      </div>
+      <button type="submit" className="button-aside">
+        <img
+          className="image-into-search-button"
+          src={magnifyingImgSrc}
+          alt="buttonpng"
+          border="0"
+        />
+      </button>
     </div>
   )
 }

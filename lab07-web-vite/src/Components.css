@@ -1,16 +1,26 @@
 .button-aside {
   position: relative;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
   border: none;
-  background-color: inherit;
+  background-color: white;
   height: 100%;
   width: auto;
   cursor: pointer;
 }
 
-.SearchBar-div-container {
+.searchBar-div-container {
   text-align: center;
   height: 30px;
+  
+}
+
+.input-container {
+  height: 30px;
+  text-align: right;
+  width: 60%;
+  margin: 0px 0px 0px 0px;
+  /* width: 60%; */
+  display:inline;
 }
 
 .button-search-aside {
@@ -28,8 +38,10 @@
   position: relative;
   background-color: white;
   padding: 0px 0px 0px 0px;
-  height: 30px;
-  width: 80%;
+  margin: 0px 0px 0px 0px;
+  height: 45px;
+  width: 1000px;
+  display: inline-block;
 }
 
 /* .button-aside:hover {
@@ -46,4 +58,13 @@
   position: relative;
   height: 100%;
   width: auto;
+}
+
+.image-into-search-button {
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+  width: auto;
+  /* display:inline-block; */
 }
