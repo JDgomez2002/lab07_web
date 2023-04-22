@@ -1,6 +1,6 @@
 import React from 'react'
 import './Fragments.css'
-import { ImageButton, SearchBar, InfoFooterContainer } from './Components'
+import { ImageButton, SearchBar } from './Components'
 
 function Header() {
   const hornImageSrc = 'https://github.com/JDgomez2002/lab07_web/blob/main/img/image-1.png?raw=true'
@@ -25,10 +25,4 @@ function Body() {
   )
 }
 
-function Footer() {
-  return (
-    <InfoFooterContainer />
-  )
-}
-
-export { Header, Body, Footer }
+export { Header, Body }

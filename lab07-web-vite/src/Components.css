@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .button-aside {
   position: relative;
   margin: 0px 0px 0px 0px;
@@ -9,9 +11,9 @@
 }
 
 .searchBar-div-container {
+  margin: 20px 0px 0px 0px;
   text-align: center;
-  height: 30px;
-  
+  height: 44px;
 }
 
 .input-container {
@@ -35,18 +37,21 @@
 }
 
 .input-aside {
+  font-size: 16px;
   position: relative;
   background-color: white;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  height: 30px;
-  width: 1000px;
+  height: 100%;
+  outline: none;
+  width: 616px;
   display: inline-block;
   overflow: hidden;
   background-color: #282828;
   border: none;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   color: white;
+  text-indent: 15px;
 }
 
 /* .button-aside:hover {
@@ -66,15 +71,15 @@
 }
 
 .image-into-search-button {
-  position: relative;
+  /* position: relative; */
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px -16.5px 0px;
   height: 100%;
   width: auto;
-  display:inline-block;
+  display: inline-block;
   background-color: #282828;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   cursor: pointer;
   background-image: 'https://github.com/JDgomez2002/lab07_web/blob/main/img/image-4.png?raw=true';
 }
@@ -95,4 +100,72 @@
 .search-button img {
   height: 100%;
   margin-right: auto;
+}
+
+.main-text-container {
+  width: 100%;
+  /* display: grid; */
+  /* place-items: center; */
+}
+
+.main-text-container h1 {
+  margin: 30px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.main-text-container h2 {
+  font-weight: 900;
+  font-size: 42px;
+  margin: 125px 0px 0px 0px;
+  width: 600px;
+  text-align: center;
+}
+
+.main-text-container h4 {
+  margin: 50px 0px 0px 0px;
+  font-size: large;
+}
+
+.main-text-container h5 {
+  margin: 12px 0px 0px 0px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.main-text-container p {
+  margin: 10px 0px 0px 0px;
+  font-weight: 400;
+  /* font-size: 35px; */
+}
+
+.main-text-container button {
+  font-family: 'Figtree', sans-serif;
+  margin: 15px 0px 0px 0px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: #678fff;
+  border-color: inherit;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.main-text-container button:hover {
+  cursor: pointer;
+}
+
+.card-container {
+  height: 300px;
+  margin: 0px 20px;
+  padding: 10px 15px;
+  width: 400px;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.card-container p {
+  font-size: 15px;
+  margin: 0;
 }
